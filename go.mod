@@ -5,7 +5,6 @@ go 1.14
 require (
 	github.com/corpix/uarand v0.1.1
 	github.com/golang/protobuf v1.4.3 // indirect
-	github.com/golang/snappy v0.0.3 // indirect
 	github.com/google/go-cmp v0.5.4 // indirect
 	github.com/hbakhtiyor/strsim v0.0.0-20190107154042-4d2bbb273edf
 	github.com/logrusorgru/aurora v2.0.3+incompatible
@@ -20,7 +19,7 @@ require (
 	github.com/projectdiscovery/fdmax v0.0.3
 	github.com/projectdiscovery/gologger v1.1.4
 	github.com/projectdiscovery/hmap v0.0.1
-	github.com/projectdiscovery/mapcidr v0.0.5
+	github.com/projectdiscovery/mapcidr v0.0.7
 	github.com/projectdiscovery/rawhttp v0.0.6
 	github.com/projectdiscovery/retryablehttp-go v1.0.1
 	github.com/remeh/sizedwaitgroup v1.0.0
