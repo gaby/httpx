@@ -24,7 +24,7 @@ require (
 	github.com/projectdiscovery/rawhttp v0.0.6
 	github.com/projectdiscovery/retryablehttp-go v1.0.1
 	github.com/remeh/sizedwaitgroup v1.0.0
-	github.com/rs/xid v1.2.1
+	github.com/rs/xid v1.4.0
 	golang.org/x/crypto v0.0.0-20210220033148-5ea612d1eb83 // indirect
 	golang.org/x/net v0.0.0-20210224082022-3d97a244fca7
 	golang.org/x/sync v0.0.0-20201207232520-09787c993a3a // indirect
