@@ -1,6 +1,6 @@
 module github.com/projectdiscovery/httpx
 
-go 1.17
+go 1.25.0
 
 require (
 	github.com/akrylysov/pogreb v0.10.1 // indirect
@@ -38,9 +38,9 @@ require (
 	go.etcd.io/bbolt v1.3.6 // indirect
 	go.uber.org/atomic v1.9.0 // indirect
 	go.uber.org/ratelimit v0.2.0
-	golang.org/x/net v0.0.0-20220617184016-355a448f1bc9
-	golang.org/x/sys v0.0.0-20220520151302-bc2c85ada10a // indirect
-	golang.org/x/text v0.3.7
+	golang.org/x/net v0.55.0
+	golang.org/x/sys v0.45.0 // indirect
+	golang.org/x/text v0.37.0
 )
 
 require github.com/spaolacci/murmur3 v1.1.0
@@ -76,10 +76,10 @@ require (
 	github.com/yl2chen/cidranger v1.0.2 // indirect
 	github.com/zmap/rc2 v0.0.0-20131011165748-24b9757f5521 // indirect
 	github.com/zmap/zcrypto v0.0.0-20211005224000-2d0ffdec8a9b // indirect
-	golang.org/x/crypto v0.0.0-20220210151621-f4118a5b28e2 // indirect
-	golang.org/x/mod v0.4.2 // indirect
-	golang.org/x/tools v0.1.6-0.20210726203631-07bc1bf47fb2 // indirect
-	golang.org/x/xerrors v0.0.0-20200804184101-5ec99f83aff1 // indirect
+	golang.org/x/crypto v0.51.0 // indirect
+	golang.org/x/mod v0.35.0 // indirect
+	golang.org/x/sync v0.20.0 // indirect
+	golang.org/x/tools v0.44.0 // indirect
 	gopkg.in/ini.v1 v1.62.0 // indirect
 	gopkg.in/yaml.v3 v3.0.1 // indirect
 )
