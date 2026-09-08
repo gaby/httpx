@@ -13,7 +13,7 @@ jobs:
     if: ${{ !endsWith(github.actor, '[bot]') }}
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v7
       - uses: projectdiscovery/actions/setup/go@v1
       - uses: projectdiscovery/actions/golangci-lint/v2@v1
 
@@ -25,7 +25,7 @@ jobs:
       matrix:
         os: [ubuntu-latest, windows-latest, macOS-latest]
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v7
       - uses: projectdiscovery/actions/setup/go@v1
       - run: go build .
         working-directory: cmd/httpx/
