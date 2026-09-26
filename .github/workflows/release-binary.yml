@@ -18,7 +18,7 @@ jobs:
       - uses: projectdiscovery/actions/setup/go@v1
 
       - name: "Create release on GitHub"
-        uses: goreleaser/goreleaser-action@v4
+        uses: goreleaser/goreleaser-action@v7
         with:
           args: "release --clean"
           version: latest

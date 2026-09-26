@@ -19,7 +19,7 @@ jobs:
       - uses: projectdiscovery/actions/setup/go@v1
 
       - name: release test
-        uses: goreleaser/goreleaser-action@v4
+        uses: goreleaser/goreleaser-action@v7
         with:
           args: "release --clean --snapshot"
           version: latest
